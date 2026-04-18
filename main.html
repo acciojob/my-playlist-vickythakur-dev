@@ -1,23 +1,71 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assigment.css">
+  <meta charset="UTF-8">
+  <title>My Playlist</title>
+  <style>
+    body {
+      background-color: rgb(204, 204, 204);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .player_one {
+      background-color: rgb(255, 255, 255);
+      padding: 15px;
+      border-radius: 10px;
+      max-width: 700px;
+      margin: 0 auto 20px auto;
+    }
+
+    .player_two {
+      background-color: rgb(255, 255, 255);
+      padding: 15px;
+      border-radius: 10px;
+      max-width: 700px;
+      margin: 0 auto 20px auto;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    audio {
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-    
- <h1>My Playlist</h1>
+
+  <h1>My Playlist</h1>
 
   <div>
-    <ul class="ram">
-      <li><a href="#" target="_blank">Song 1</a></li>
-      <li><a href="#" target="_blank">Song 2</a></li>
-      <li><a href="#" target="_blank">Song 3</a></li>
-      <li><a href="#" target="_blank">Song 4</a></li>
-      <li><a href="#" target="_blank">Song 5</a></li>
+    <ul>
+      <li style="list-style-type: none;">
+        <a href="https://www.youtube.com/watch?v=1" target="_blank" style="text-decoration-line: none;">Song 1</a>
+      </li>
+      <li style="list-style-type: none;">
+        <a href="https://www.youtube.com/watch?v=2" target="_blank" style="text-decoration-line: none;">Song 2</a>
+      </li>
+      <li style="list-style-type: none;">
+        <a href="https://www.youtube.com/watch?v=3" target="_blank" style="text-decoration-line: none;">Song 3</a>
+      </li>
+      <li style="list-style-type: none;">
+        <a href="https://www.youtube.com/watch?v=4" target="_blank" style="text-decoration-line: none;">Song 4</a>
+      </li>
+      <li style="list-style-type: none;">
+        <a href="https://www.youtube.com/watch?v=5" target="_blank" style="text-decoration-line: none;">Song 5</a>
+      </li>
     </ul>
   </div>
 
@@ -27,18 +75,16 @@
     <video controls>
       <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
     </video>
- 
+  </div>
 
   <h2>MP3 songs</h2>
 
-  
+  <div class="player_two">
     <p>Maan Meri Jaan</p>
     <audio controls>
       <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
     </audio>
   </div>
 
-
-</div>
 </body>
 </html>
